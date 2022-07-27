@@ -23,15 +23,18 @@ const heavyWork = () => {
 
 export default function UseStateCompo2() {
   // 초기값을 가져올 때 무거운 작업을 해야한다면 useState()의 괄호 안에 콜백을 넣어주면
-  // 매번 렌더링 되지 않고 처음 힌번만 렌더된다!
+  // 매번 렌더링 되지 않고 처음 한번만 렌더링된다!
   const [names, setNames] = useState(() => {
     return heavyWork();
   });
+
   const [input, setInput] = useState("");
 
   const handleInputChange = (event) => {
     setInput(event.target.value);
   };
+
+  console.log(input);
 
   const handleUpload = () => {
     setNames((prev) => {
