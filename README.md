@@ -1,7 +1,3 @@
-# 📘 What I Learned About React-Hooks
-
-<br/>
-
 ## React-Hooks
 
 ## [01] useState
