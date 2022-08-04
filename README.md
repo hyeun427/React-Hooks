@@ -9,3 +9,9 @@
 
 - [[Ref.] React Hooks에 취한다 - useEffect 깔끔하게 마스터하기 | 리액트 훅스 시리즈](https://youtu.be/kyodvzc5GHU) <br/>
 - [[Blog] useEffect ](https://velog.io/@hyeun427/React-Hooks-useEffect) <br/>
+
+## [03] useRef
+
+- [[Ref.] React Hooks에 취한다 - useRef 완벽 정리 1# 변수 관리 | 리액트 훅스 시리즈](https://youtu.be/VxqZrL4FLz8) <br/>
+- [[Ref.] React Hooks에 취한다 - useRef 완벽 정리 2# 변수 관리 | 리액트 훅스 시리즈](https://youtu.be/EMK8oUUwP5Q) <br/>
+- [[Blog] useRef ](https://velog.io/@hyeun427/React-Hooks-useRef) <br/>
