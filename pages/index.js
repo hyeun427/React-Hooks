@@ -1,6 +1,21 @@
 import { useRouter } from "next/router";
+import styled from "@emotion/styled";
 
 export default function Home() {
+  const Wrapper = styled.div`
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+  `;
+  const Button = styled.button`
+    margin: 10px;
+    width: 150px;
+    height: 70px;
+    background-color: lightgray;
+    color: black;
+    font-weight: 700;
+  `;
+
   const router = useRouter();
 
   const onClickState = () => {
@@ -11,10 +26,15 @@ export default function Home() {
     router.push("/useEffect");
   };
 
+  const onClickRef = () => {
+    router.push("/useRef");
+  };
+
   return (
-    <div>
-      <button onClick={onClickState}>useState로 출발</button>
-      <button onClick={onClickEffect}>useEffect로 출발</button>
-    </div>
+    <Wrapper>
+      <Button onClick={onClickState}>useState로 출발🐤</Button>
+      <Button onClick={onClickEffect}>useEffect로 출발🤖</Button>
+      <Button onClick={onClickRef}>useRef로 출발🐣</Button>
+    </Wrapper>
   );
 }
