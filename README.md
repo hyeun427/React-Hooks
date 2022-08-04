@@ -8,4 +8,4 @@
 ## [02] useEffect
 
 - [[Ref.] React Hooks에 취한다 - useEffect 깔끔하게 마스터하기 | 리액트 훅스 시리즈](https://youtu.be/kyodvzc5GHU) <br/>
-- [[Blog] useEffecte ](https://velog.io/@hyeun427/React-Hooks-useEffect) <br/>
+- [[Blog] useEffect ](https://velog.io/@hyeun427/React-Hooks-useEffect) <br/>
