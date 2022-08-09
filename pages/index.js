@@ -9,11 +9,15 @@ export default function Home() {
   `;
   const Button = styled.button`
     margin: 10px;
-    width: 150px;
+    width: 200px;
     height: 70px;
     background-color: lightgray;
     color: black;
     font-weight: 700;
+    :hover {
+      background-color: pink;
+      cursor: pointer;
+    }
   `;
 
   const router = useRouter();
@@ -34,12 +38,17 @@ export default function Home() {
     router.push("/useContext");
   };
 
+  const onClickMemo = () => {
+    router.push("/useMemo");
+  };
+
   return (
     <Wrapper>
       <Button onClick={onClickState}>useState로 출발🐤</Button>
       <Button onClick={onClickEffect}>useEffect로 출발🤖</Button>
       <Button onClick={onClickRef}>useRef로 출발🐣</Button>
       <Button onClick={onClickContext}>useContext로 출발💕</Button>
+      <Button onClick={onClickMemo}>useMemo로 출발🎁</Button>
     </Wrapper>
   );
 }
