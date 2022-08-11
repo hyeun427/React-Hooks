@@ -34,12 +34,17 @@ export default function Home() {
     router.push("/useContext");
   };
 
+  const onClickMemo = () => {
+    router.push("/useContext");
+  };
+
   return (
     <Wrapper>
       <Button onClick={onClickState}>useState로 출발🐤</Button>
       <Button onClick={onClickEffect}>useEffect로 출발🤖</Button>
       <Button onClick={onClickRef}>useRef로 출발🐣</Button>
       <Button onClick={onClickContext}>useContext로 출발💕</Button>
+      <Button onClick={onClickMemo}>useMemo로 출발👻</Button>
     </Wrapper>
   );
 }

@@ -1,9 +1,11 @@
-import UseContextCompo1 from "../../src/4.useContext/1";
+import UseMemoCompo1 from "../../src/5.useMemo/1";
+import UseMemoCompo2 from "../../src/5.useMemo/2";
 
-export default function UseEffectPage() {
+export default function UseContextPage() {
   return (
     <>
-      <UseContextCompo1 />
+      <UseMemoCompo1 />
+      <UseMemoCompo2 />
     </>
   );
 }
