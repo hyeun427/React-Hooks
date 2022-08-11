@@ -39,11 +39,7 @@ export default function Home() {
   };
 
   const onClickMemo = () => {
-<<<<<<< HEAD
-    router.push("/useContext");
-=======
     router.push("/useMemo");
->>>>>>> 2cdb64f8d418cffb41ae641725d2ea69166eaa45
   };
 
   return (
@@ -52,11 +48,7 @@ export default function Home() {
       <Button onClick={onClickEffect}>useEffect로 출발🤖</Button>
       <Button onClick={onClickRef}>useRef로 출발🐣</Button>
       <Button onClick={onClickContext}>useContext로 출발💕</Button>
-<<<<<<< HEAD
-      <Button onClick={onClickMemo}>useMemo로 출발👻</Button>
-=======
       <Button onClick={onClickMemo}>useMemo로 출발🎁</Button>
->>>>>>> 2cdb64f8d418cffb41ae641725d2ea69166eaa45
     </Wrapper>
   );
 }
