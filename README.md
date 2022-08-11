@@ -20,3 +20,8 @@
 
 - [[Ref.] React Hooks에 취한다 - useContext + Context API | 리액트 훅스 시리즈](https://youtu.be/LwvXVEHS638) <br/>
 - [[Blog] useContext ](https://velog.io/@hyeun427/React-Hooks-useContext) <br/>
+
+## [05] useMemo
+
+- [[Ref.] React Hooks에 취한다 - useMemo 제대로 사용하기 | 리액트 훅스 시리즈](https://youtu.be/e-CnI8Q5RY4)) <br/>
+- [[Blog] useMemo ](https://velog.io/@hyeun427/React-Hooks-useMemo) <br/>
