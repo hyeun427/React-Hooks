@@ -25,3 +25,8 @@
 
 - [[Ref.] React Hooks에 취한다 - useMemo 제대로 사용하기 | 리액트 훅스 시리즈](https://youtu.be/e-CnI8Q5RY4)) <br/>
 - [[Blog] useMemo ](https://velog.io/@hyeun427/React-Hooks-useMemo) <br/>
+
+## [06] useCallback
+
+- [[Ref.] React Hooks에 취한다 - useCallback 짱 쉬운 강의 | 리액트 훅스 시리즈](https://youtu.be/XfUF9qLa3mU)) <br/>
+- [[Blog] useCallback ](https://velog.io/@hyeun427/React-Hooks-useCallback) <br/>
