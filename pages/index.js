@@ -42,6 +42,10 @@ export default function Home() {
     router.push("/useMemo");
   };
 
+  const onClickCallback = () => {
+    router.push("/useCallback");
+  };
+
   return (
     <Wrapper>
       <Button onClick={onClickState}>useState로 출발🐤</Button>
@@ -49,6 +53,7 @@ export default function Home() {
       <Button onClick={onClickRef}>useRef로 출발🐣</Button>
       <Button onClick={onClickContext}>useContext로 출발💕</Button>
       <Button onClick={onClickMemo}>useMemo로 출발🎁</Button>
+      <Button onClick={onClickCallback}>useCallback으로 출발👻</Button>
     </Wrapper>
   );
 }
