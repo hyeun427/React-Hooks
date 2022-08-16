@@ -7,6 +7,7 @@ export default function Home() {
     display: flex;
     flex-direction: column;
   `;
+
   const Button = styled.button`
     margin: 10px;
     width: 200px;
@@ -46,6 +47,10 @@ export default function Home() {
     router.push("/useCallback");
   };
 
+  const onClickReactMemo = () => {
+    router.push("/reactMemo");
+  };
+
   return (
     <Wrapper>
       <Button onClick={onClickState}>useState로 출발🐤</Button>
@@ -54,6 +59,7 @@ export default function Home() {
       <Button onClick={onClickContext}>useContext로 출발💕</Button>
       <Button onClick={onClickMemo}>useMemo로 출발🎁</Button>
       <Button onClick={onClickCallback}>useCallback으로 출발👻</Button>
+      <Button onClick={onClickReactMemo}>React.memo로 출발🥶</Button>
     </Wrapper>
   );
 }
