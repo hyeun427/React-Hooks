@@ -51,6 +51,10 @@ export default function Home() {
     router.push("/reactMemo");
   };
 
+  const onClickUseReducer = () => {
+    router.push("/useReducer");
+  };
+
   return (
     <Wrapper>
       <Button onClick={onClickState}>useState로 출발🐤</Button>
@@ -60,6 +64,7 @@ export default function Home() {
       <Button onClick={onClickMemo}>useMemo로 출발🎁</Button>
       <Button onClick={onClickCallback}>useCallback으로 출발👻</Button>
       <Button onClick={onClickReactMemo}>React.memo로 출발🥶</Button>
+      <Button onClick={onClickUseReducer}>useReducer로 출발🐶</Button>
     </Wrapper>
   );
 }
