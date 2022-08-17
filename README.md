@@ -35,3 +35,8 @@
 
 - [[Ref.] React.memo로 컴포넌트 최적화하기 (ft. useMemo, useCallback)](https://youtu.be/oqUgcxwrnSY)) <br/>
 - [[Blog] React.memo ](https://velog.io/@hyeun427/React-Hooks-React.memo) <br/>
+
+## [08] useReducer
+
+- [[Ref.] React Hooks에 취한다 - useReducer 확실히 정리해드려요 | 리액트 훅스 시리즈](https://youtu.be/tdORpiegLg0)) <br/>
+- [[Blog] React.memo ](https://velog.io/@hyeun427/React-Hooks-useReducer) <br/>
