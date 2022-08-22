@@ -40,3 +40,8 @@
 
 - [[Ref.] React Hooks에 취한다 - useReducer 확실히 정리해드려요 | 리액트 훅스 시리즈](https://youtu.be/tdORpiegLg0)) <br/>
 - [[Blog] React.memo ](https://velog.io/@hyeun427/React-Hooks-useReducer) <br/>
+
+## [09] customHooks
+
+- [[Ref.] React Hooks에 취한다 - Custom Hooks 커스텀 훅 | 리액트 훅스 시리즈](https://youtu.be/S6POUU2-tr8)) <br/>
+- [[Blog] customHooks ](https://velog.io/@hyeun427/React-Hooks-Custom-Hooks) <br/>
