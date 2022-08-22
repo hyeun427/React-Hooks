@@ -55,6 +55,10 @@ export default function Home() {
     router.push("/useReducer");
   };
 
+  const onClickCustomHook = () => {
+    router.push("/customHook");
+  };
+
   return (
     <Wrapper>
       <Button onClick={onClickState}>useState로 출발🐤</Button>
@@ -65,6 +69,7 @@ export default function Home() {
       <Button onClick={onClickCallback}>useCallback으로 출발👻</Button>
       <Button onClick={onClickReactMemo}>React.memo로 출발🥶</Button>
       <Button onClick={onClickUseReducer}>useReducer로 출발🐶</Button>
+      <Button onClick={onClickCustomHook}>customHook으로 출발🦄</Button>
     </Wrapper>
   );
 }
